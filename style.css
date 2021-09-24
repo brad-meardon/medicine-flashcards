@@ -116,6 +116,9 @@
    font-size: 2rem;
    border: 2px solid #d10000;
    word-wrap:break-word;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
 }
 
 /* 
