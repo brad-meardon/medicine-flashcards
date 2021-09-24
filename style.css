@@ -34,16 +34,6 @@
    width: 100%;
    text-align: center;
  }
-
- .centerItems{
-    display:inline-block;
-    align-content:center;
- }
- 
- li {
-   padding-top: 1.5vh;
-   padding-bottom: 1.6vh;
- }
  
  a , p {
    color: #d10000;
@@ -111,8 +101,6 @@
   color: rgb(21, 21, 21)
 }
 
-
-
 /* 
 *   Buttons
 */
@@ -135,9 +123,6 @@
 */
 
 @media only screen and (max-width: 1100px) and (max-height: 1400px){
-  /* #answerBtn , a , #questionBtn, p{
-     font-size: 0.7em;
-  } */
 
   .question-txt, .answer-txt{
     font-size: 1.5em;
@@ -210,10 +195,6 @@
 }
 
 @media only screen and (max-width: 660px) and (max-height: 300px){
-  /* #answerBtn , a , #questionBtn, p{
-     font-size: 0.7em;
-  } */
-
   .question-txt, .answer-txt{
     font-size: 0.9em;
   }
