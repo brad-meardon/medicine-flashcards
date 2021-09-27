@@ -52,3 +52,25 @@ function generateQuestion(value){
 function showAnswer(){
    document.getElementById('aTxt').style.display="block";
 }
+
+function addFunction(){
+   var qInputValue = document.getElementById("questionInput").value;
+   var aInputValue = document.getElementById("answerInput").value;
+   var newObj = {
+      question: qInputValue,
+      answer: aInputValue
+   }
+
+   if (qInputValue == '' && aInputValue == ''){
+      alert("Enter a question and answer!");
+   } else if (qInputValue == ''){
+      alert("Enter a question!");
+   } else if (aInputValue == ''){
+      alert("Enter an answer!");
+   } else{
+      questionsAndAnswers.push(newObj);
+      alert("Flashcard added successfully!");
+   }
+   document.getElementById("questionInput").value = "";
+   document.getElementById("answerInput").value = "";
+}

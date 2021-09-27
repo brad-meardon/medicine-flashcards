@@ -44,9 +44,25 @@
           <input type="button" value="Show me the answer!" id="answerBtn" onclick="showAnswer();"/>
         </div> 
       </div>
-      <div class = "footer">
-        <p class="footer-txt">Made by Brad Meardon</p>
+      <div class = "section">
+        <p class="section-txt">Scroll down to add your own flashcards.</p>
       </div>
+    </div>
+    <div class = "addQuestion">
+      <div class = "inputSection">
+        <div class = "inputBox">
+          <input type="text" id="questionInput" placeholder="Question">
+        </div>
+        <div class = "inputBox">
+          <input type="text" id="answerInput" placeholder="Answer">
+        </div>
+      </div>
+      <div class = "submitSection">
+        <span onclick="addFunction()" class="addBtn">Add Flashcard</span>
+      </div>
+    </div>
+    <div class = "footer">
+      <p class="footer-txt">Made by Brad Meardon.</p>
     </div>
     <script type="text/javascript" src="script.js"></script>
   </body>
